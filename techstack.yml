@@ -1,0 +1,764 @@
+repo_name: chetantete/discourse1
+report_id: f02dcd8baaa03a8756d10b04b978d3aa
+repo_type: Public
+timestamp: '2023-11-09T08:01:23+00:00'
+requested_by: chetantete
+provider: github
+branch: main
+detected_tools_count: 70
+tools:
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  version: 4.7.6
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  version: 5.0.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 10.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 21.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.20
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: NPM Trends
+  website_url: https://www.npmtrends.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/12294/empty-logo-square.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: OpenLayers
+  description: A high-performance, feature-packed library for all your mapping needs
+  website_url: http://openlayers.org/
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Mapping APIs
+  image_url: https://img.stackshare.io/service/3208/397ce8027eb036960f00dd5153d41993.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: "@octokit/rest"
+  description: GitHub REST API client for Node.js
+  package_url: https://www.npmjs.com/@octokit/rest
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: "@rollup/plugin-node-resolve"
+  description: Locate and bundle third-party dependencies in node_modules
+  package_url: https://www.npmjs.com/@rollup/plugin-node-resolve
+  version: 15.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17836/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.59.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.59.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: autod
+  description: Auto generate dependencies
+  package_url: https://www.npmjs.com/autod
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16724/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: bl
+  description: 'Buffer List: collect buffers and access with a standard readable Buffer
+    interface'
+  package_url: https://www.npmjs.com/bl
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17221/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: clean-css
+  description: A well-tested CSS minifier
+  package_url: https://www.npmjs.com/clean-css
+  version: 5.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16486/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: cli
+  description: A tool for rapidly building command line apps
+  package_url: https://www.npmjs.com/cli
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17384/default_b39374c3a74b433364bfdbff07be26214bf186fd.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: cli-table
+  description: Pretty unicode tables for the CLI
+  package_url: https://www.npmjs.com/cli-table
+  version: 0.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16477/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: co
+  description: Generator async control flow goodness
+  package_url: https://www.npmjs.com/co
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16007/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: color
+  description: Color conversion and manipulation with CSS string support
+  package_url: https://www.npmjs.com/color
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16600/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: colors
+  description: Get colors in your node.js console
+  package_url: https://www.npmjs.com/colors
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: conf
+  description: Simple config handling for your app or module
+  package_url: https://www.npmjs.com/conf
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17998/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: config
+  description: Configuration control for production node deployments
+  package_url: https://www.npmjs.com/config
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16353/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: css
+  description: CSS parser / stringifier
+  package_url: https://www.npmjs.com/css
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17017/default_824835a71140f223a333a5e10225c10368f12857.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: deep-freeze
+  description: Recursively Object.freeze
+  package_url: https://www.npmjs.com/deep-freeze
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17827/default_369b3bf3ef062123a581e4817f09cb0004de7ff6.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 6.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: eslint-config-standard
+  description: JavaScript Standard Style - ESLint Shareable Config
+  package_url: https://www.npmjs.com/eslint-config-standard
+  version: 17.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.27.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: eslint-plugin-node
+  description: Additional ESLint's rules for Node.js
+  package_url: https://www.npmjs.com/eslint-plugin-node
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 6.1.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 8.0.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: glob-promise
+  description: Promise version of glob
+  package_url: https://www.npmjs.com/glob-promise
+  version: 6.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18020/image.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: gm
+  description: GraphicsMagick and ImageMagick for node.js
+  package_url: https://www.npmjs.com/gm
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16804/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: handlebars
+  description: Handlebars provides the power necessary to let you build semantic templates
+    effectively with no frustration
+  package_url: https://www.npmjs.com/handlebars
+  version: 4.7.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  vulnerabilities:
+  - name: Remote code execution in handlebars when compiling templates
+    cve_id: CVE-2021-23369
+    cve_url: https://github.com/advisories/GHSA-f2jv-r9rf-7988
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 4.7.7
+  - name: Prototype Pollution in handlebars
+    cve_id: CVE-2021-23383
+    cve_url: https://github.com/advisories/GHSA-765h-qjxv-5f44
+    detected_date: Feb 11
+    severity: critical
+    first_patched: 4.7.7
+- name: he
+  description: A robust HTML entities encoder/decoder with full Unicode support
+  package_url: https://www.npmjs.com/he
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17059/default_31b594d049ba66ce98c924544ccc4329a3f2d530.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: highlight.js
+  description: Syntax highlighting with language autodetection
+  package_url: https://www.npmjs.com/highlight.js
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16137/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: http
+  package_url: https://www.npmjs.com/http
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16874/default_768abdabb94806c932ace6262b6bbc8241907245.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: http-server
+  description: A simple zero-configuration command-line http server
+  package_url: https://www.npmjs.com/http-server
+  version: 14.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16118/default_f905d9556a0330de59b502a579c1f5c4be2b48bf.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: https
+  description: Https mediation
+  package_url: https://www.npmjs.com/https
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17546/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: i
+  description: Custom inflections for nodejs
+  package_url: https://www.npmjs.com/i
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17326/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: ignore
+  description: Ignore is a manager and filter for .gitignore rules
+  package_url: https://www.npmjs.com/ignore
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17744/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: ip
+  description: "[![]"
+  package_url: https://www.npmjs.com/ip
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16483/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: is
+  description: The definitive JavaScript type testing library
+  package_url: https://www.npmjs.com/is
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17544/default_e665c133253b5cd434c1991167ebd25dc68f1c17.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: json
+  description: A 'json' command for massaging and processing JSON on the command line
+  package_url: https://www.npmjs.com/json
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17859/default_dc034f75f103514d23b4d1a7fe578415d63216ee.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: ms
+  description: Tiny millisecond conversion utility
+  package_url: https://www.npmjs.com/ms
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16565/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: node
+  description: Node
+  package_url: https://www.npmjs.com/node
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17983/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: np
+  description: A better `npm publish`
+  package_url: https://www.npmjs.com/np
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16247/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: npm
+  description: A package manager for JavaScript
+  package_url: https://www.npmjs.com/npm
+  license: Artistic-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16105/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: ol
+  description: OpenLayers mapping library
+  package_url: https://www.npmjs.com/ol
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18695/default_ba22650903e999378ab35f8093d2d808f0a46039.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: os
+  description: NodeJS Core Module Extended
+  package_url: https://www.npmjs.com/os
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17784/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: parse
+  description: The Parse JavaScript SDK
+  package_url: https://www.npmjs.com/parse
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18631/default_9435962787d899b43c107b26a450d4a5a0784dc8.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: promise
+  description: Bare bones Promises/A+ implementation
+  package_url: https://www.npmjs.com/promise
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16093/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: rc
+  description: Hardwired configuration loader
+  package_url: https://www.npmjs.com/rc
+  license: BSD-2-Clause,MIT,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16813/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: ref
+  description: Turn Buffer instances into "pointers"
+  package_url: https://www.npmjs.com/ref
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18418/default_4d27e57a415c059481cbe1fd0734523c261d311a.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: resolve
+  description: Resolve like require.resolve
+  package_url: https://www.npmjs.com/resolve
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16128/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: serve
+  description: Static file serving and directory listing
+  package_url: https://www.npmjs.com/serve
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16484/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: should
+  description: Test framework agnostic BDD-style assertions
+  package_url: https://www.npmjs.com/should
+  version: 13.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15871/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: st
+  description: A module for serving static files. Does etags, caching, etc
+  package_url: https://www.npmjs.com/st
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18455/default_d8e945bfec4c4a608fb0493abf73c9ec1cffc9a2.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: standard
+  description: JavaScript Standard Style
+  package_url: https://www.npmjs.com/standard
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15878/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: table
+  description: Formats data into a string table
+  package_url: https://www.npmjs.com/table
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17937/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: terser
+  description: JavaScript parser
+  package_url: https://www.npmjs.com/terser
+  version: 5.17.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16562/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: test
+  description: ''
+  package_url: https://www.npmjs.com/test
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18204/default_329699d382cad74e0d389300999bd267b9699d3f.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: url
+  description: The core `url` packaged standalone for use with Browserify
+  package_url: https://www.npmjs.com/url
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16462/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+- name: ws
+  description: Simple to use
+  package_url: https://www.npmjs.com/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16044/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
